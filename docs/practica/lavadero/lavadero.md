@@ -12,7 +12,7 @@ Todos los días se emite un listado de los pedidos atendidos para llevar un cont
 3. Definir el alcance del Sistema de información y organizarlo mediante subsistemas (Req. Globales.)
 
 ## Solución
-### 1 - Objectivo del Sistema de Información
+### 1 - Objetivo del Sistema de Información
 Brindar información para gestionar clientes, gestionar pedidos, gestionar servicios y gestionar insumos con el fin de facilitar la toma de decisiones sobre la gestión de insumos y el control de caja.
 
 ### 2 - Límite del Sistema de información

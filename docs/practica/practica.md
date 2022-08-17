@@ -1,4 +1,4 @@
-# Practica MSI
+# Práctica MSI
 
 ## Sistemas de Negocio
 

@@ -1,5 +1,5 @@
 # README
 
-Esta documentacion esta orientada a resumir el material teorico en los puntos clave de la materia y agrupar los ejercicion practicos ejecutados durante las clases.
+Esta documentación esta orientada a resumir el material teórico en los puntos clave de la materia y agrupar los ejercicios prácticos ejecutados durante las clases.
 
-!> Se recomienda leer el material teorico completo antes de apoyarse en este proyecto.
+!> Se recomienda leer el material teórico completo antes de apoyarse en este proyecto.

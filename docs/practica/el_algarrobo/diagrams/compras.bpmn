@@ -1,21 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<bpmn2:definitions xmlns:bpmn2="http://www.omg.org/spec/BPMN/20100524/MODEL" xmlns:bpmndi="http://www.omg.org/spec/BPMN/20100524/DI" xmlns:bpsim="http://www.bpsim.org/schemas/1.0" xmlns:dc="http://www.omg.org/spec/DD/20100524/DC" xmlns:di="http://www.omg.org/spec/DD/20100524/DI" xmlns:drools="http://www.jboss.org/drools" xmlns:xsi="xsi" id="_6fcVsP8yEDqaseXVExBWFQ" xsi:schemaLocation="http://www.omg.org/spec/BPMN/20100524/MODEL BPMN20.xsd http://www.jboss.org/drools drools.xsd http://www.bpsim.org/schemas/1.0 bpsim.xsd http://www.omg.org/spec/DD/20100524/DC DC.xsd http://www.omg.org/spec/DD/20100524/DI DI.xsd " exporter="jBPM Process Modeler" exporterVersion="2.0" targetNamespace="http://www.omg.org/bpmn20">
-  <bpmn2:itemDefinition id="_6fc8wP8yEDqaseXVExBWFQ" structureRef="Object"/>
-  <bpmn2:collaboration id="_C26B5BD6-C1A8-4041-AE18-879C84B98614" name="Default Collaboration">
-    <bpmn2:participant id="_5505516E-BE0D-462F-B548-B23F809CF044" name="Pool Participant" processRef="elAlgarrobo"/>
+<bpmn2:definitions xmlns:bpmn2="http://www.omg.org/spec/BPMN/20100524/MODEL" xmlns:bpmndi="http://www.omg.org/spec/BPMN/20100524/DI" xmlns:bpsim="http://www.bpsim.org/schemas/1.0" xmlns:dc="http://www.omg.org/spec/DD/20100524/DC" xmlns:di="http://www.omg.org/spec/DD/20100524/DI" xmlns:drools="http://www.jboss.org/drools" xmlns:xsi="xsi" id="_9SrqUACbEDukdYnRtxu5Fw" xsi:schemaLocation="http://www.omg.org/spec/BPMN/20100524/MODEL BPMN20.xsd http://www.jboss.org/drools drools.xsd http://www.bpsim.org/schemas/1.0 bpsim.xsd http://www.omg.org/spec/DD/20100524/DC DC.xsd http://www.omg.org/spec/DD/20100524/DI DI.xsd " exporter="jBPM Process Modeler" exporterVersion="2.0" targetNamespace="http://www.omg.org/bpmn20">
+  <bpmn2:itemDefinition id="_9Ss4cACbEDukdYnRtxu5Fw" structureRef="Object"/>
+  <bpmn2:collaboration id="_A85BAC44-0D54-49BB-A8BA-E469ACD7AB27" name="Default Collaboration">
+    <bpmn2:participant id="_1BAA6652-3E62-4750-B2A1-F3F347352E62" name="Pool Participant" processRef="elAlgarrobo"/>
   </bpmn2:collaboration>
   <bpmn2:process id="elAlgarrobo" drools:packageName="com.example" drools:version="1.0" drools:adHoc="false" name="elAlgarrobo" isExecutable="true" processType="Public">
     <bpmn2:laneSet>
-      <bpmn2:lane id="_7878E5FF-E3D8-4C32-B400-00693C8D29C3" name="Encargado de Deposito">
-        <bpmn2:extensionElements>
-          <drools:metaData name="elementname">
-            <drools:metaValue><![CDATA[Encargado de Deposito]]></drools:metaValue>
-          </drools:metaData>
-        </bpmn2:extensionElements>
-        <bpmn2:flowNodeRef>_829C3D23-57A7-42D8-9DC4-E1391D914114</bpmn2:flowNodeRef>
-        <bpmn2:flowNodeRef>_D4687A94-5CBD-4777-90F1-AF47851C1DC8</bpmn2:flowNodeRef>
-        <bpmn2:flowNodeRef>_00EC1A34-3615-4EDA-9B48-5628F3775D36</bpmn2:flowNodeRef>
-      </bpmn2:lane>
       <bpmn2:lane id="_57BE3489-ADAE-4832-9DF4-CC009D133E70" name="Encargado de Compras">
         <bpmn2:extensionElements>
           <drools:metaData name="elementname">
@@ -27,6 +17,16 @@
         <bpmn2:flowNodeRef>_BF8216C8-AD7E-44C0-84AD-053B964CA8E1</bpmn2:flowNodeRef>
         <bpmn2:flowNodeRef>_DD717018-F583-44E8-BF38-B559587BC522</bpmn2:flowNodeRef>
       </bpmn2:lane>
+      <bpmn2:lane id="_7878E5FF-E3D8-4C32-B400-00693C8D29C3" name="Encargado de Depósito">
+        <bpmn2:extensionElements>
+          <drools:metaData name="elementname">
+            <drools:metaValue><![CDATA[Encargado de Depósito]]></drools:metaValue>
+          </drools:metaData>
+        </bpmn2:extensionElements>
+        <bpmn2:flowNodeRef>_829C3D23-57A7-42D8-9DC4-E1391D914114</bpmn2:flowNodeRef>
+        <bpmn2:flowNodeRef>_00EC1A34-3615-4EDA-9B48-5628F3775D36</bpmn2:flowNodeRef>
+        <bpmn2:flowNodeRef>_D4687A94-5CBD-4777-90F1-AF47851C1DC8</bpmn2:flowNodeRef>
+      </bpmn2:lane>
     </bpmn2:laneSet>
     <bpmn2:sequenceFlow id="_1A499B3D-F0E5-4ED1-AFBF-EBE41E95DE26" sourceRef="_D4687A94-5CBD-4777-90F1-AF47851C1DC8" targetRef="_00EC1A34-3615-4EDA-9B48-5628F3775D36"/>
     <bpmn2:sequenceFlow id="_D2D336F2-C46E-4499-910E-60DECBD7E444" sourceRef="_829C3D23-57A7-42D8-9DC4-E1391D914114" targetRef="_D4687A94-5CBD-4777-90F1-AF47851C1DC8"/>
@@ -34,17 +34,26 @@
     <bpmn2:sequenceFlow id="_4E50E313-2FA9-4BD0-BE6A-A2BAC8367B18" sourceRef="_BF8216C8-AD7E-44C0-84AD-053B964CA8E1" targetRef="_DD717018-F583-44E8-BF38-B559587BC522"/>
     <bpmn2:sequenceFlow id="_1D173102-FB99-41C3-9FD7-D4F18AB1EEFC" sourceRef="_986FE0D0-8658-4A47-827A-EB9A7C9A74D1" targetRef="_BF8216C8-AD7E-44C0-84AD-053B964CA8E1"/>
     <bpmn2:sequenceFlow id="_9AD44830-1E75-4741-9A2D-92F26AE9E89D" sourceRef="_935D8D76-C96C-44BC-9CCC-0F7A47BB1190" targetRef="_986FE0D0-8658-4A47-827A-EB9A7C9A74D1"/>
-    <bpmn2:endEvent id="_00EC1A34-3615-4EDA-9B48-5628F3775D36">
-      <bpmn2:incoming>_1A499B3D-F0E5-4ED1-AFBF-EBE41E95DE26</bpmn2:incoming>
-    </bpmn2:endEvent>
-    <bpmn2:task id="_D4687A94-5CBD-4777-90F1-AF47851C1DC8" name="Controlar mercaderia recibida del proveedor">
+    <bpmn2:task id="_D4687A94-5CBD-4777-90F1-AF47851C1DC8" name="Controlar mercadería recibida del proveedor">
       <bpmn2:extensionElements>
         <drools:metaData name="elementname">
-          <drools:metaValue><![CDATA[Controlar mercaderia recibida del proveedor]]></drools:metaValue>
+          <drools:metaValue><![CDATA[Controlar mercadería recibida del proveedor]]></drools:metaValue>
         </drools:metaData>
       </bpmn2:extensionElements>
       <bpmn2:incoming>_D2D336F2-C46E-4499-910E-60DECBD7E444</bpmn2:incoming>
       <bpmn2:outgoing>_1A499B3D-F0E5-4ED1-AFBF-EBE41E95DE26</bpmn2:outgoing>
+    </bpmn2:task>
+    <bpmn2:endEvent id="_00EC1A34-3615-4EDA-9B48-5628F3775D36">
+      <bpmn2:incoming>_1A499B3D-F0E5-4ED1-AFBF-EBE41E95DE26</bpmn2:incoming>
+    </bpmn2:endEvent>
+    <bpmn2:task id="_829C3D23-57A7-42D8-9DC4-E1391D914114" name="Recibir mercadería del proveedor">
+      <bpmn2:extensionElements>
+        <drools:metaData name="elementname">
+          <drools:metaValue><![CDATA[Recibir mercadería del proveedor]]></drools:metaValue>
+        </drools:metaData>
+      </bpmn2:extensionElements>
+      <bpmn2:incoming>_A6199B4A-7AE8-456E-BC87-3ACA9B402CE4</bpmn2:incoming>
+      <bpmn2:outgoing>_D2D336F2-C46E-4499-910E-60DECBD7E444</bpmn2:outgoing>
     </bpmn2:task>
     <bpmn2:task id="_DD717018-F583-44E8-BF38-B559587BC522" name="Pagar a proveedor">
       <bpmn2:extensionElements>
@@ -54,15 +63,6 @@
       </bpmn2:extensionElements>
       <bpmn2:incoming>_4E50E313-2FA9-4BD0-BE6A-A2BAC8367B18</bpmn2:incoming>
       <bpmn2:outgoing>_A6199B4A-7AE8-456E-BC87-3ACA9B402CE4</bpmn2:outgoing>
-    </bpmn2:task>
-    <bpmn2:task id="_829C3D23-57A7-42D8-9DC4-E1391D914114" name="Recibir mercaderia del proveedor">
-      <bpmn2:extensionElements>
-        <drools:metaData name="elementname">
-          <drools:metaValue><![CDATA[Recibir mercaderia del proveedor]]></drools:metaValue>
-        </drools:metaData>
-      </bpmn2:extensionElements>
-      <bpmn2:incoming>_A6199B4A-7AE8-456E-BC87-3ACA9B402CE4</bpmn2:incoming>
-      <bpmn2:outgoing>_D2D336F2-C46E-4499-910E-60DECBD7E444</bpmn2:outgoing>
     </bpmn2:task>
     <bpmn2:task id="_BF8216C8-AD7E-44C0-84AD-053B964CA8E1" name="Realizar pedido a proveedor">
       <bpmn2:extensionElements>
@@ -86,7 +86,7 @@
       <bpmn2:outgoing>_9AD44830-1E75-4741-9A2D-92F26AE9E89D</bpmn2:outgoing>
     </bpmn2:startEvent>
     <bpmn2:dataObjectReference id="_A0FFE14C-9741-441E-8EF2-FB46D1ED5AA6" dataObjectRef="Proveedores"/>
-    <bpmn2:dataObject id="Proveedores" name="Proveedores" itemSubjectRef="_6fc8wP8yEDqaseXVExBWFQ"/>
+    <bpmn2:dataObject id="Proveedores" name="Proveedores" itemSubjectRef="_9Ss4cACbEDukdYnRtxu5Fw"/>
   </bpmn2:process>
   <bpmndi:BPMNDiagram>
     <bpmndi:BPMNPlane bpmnElement="elAlgarrobo">
@@ -102,23 +102,23 @@
       <bpmndi:BPMNShape id="shape__BF8216C8-AD7E-44C0-84AD-053B964CA8E1" bpmnElement="_BF8216C8-AD7E-44C0-84AD-053B964CA8E1">
         <dc:Bounds height="102" width="154" x="526" y="262"/>
       </bpmndi:BPMNShape>
-      <bpmndi:BPMNShape id="shape__829C3D23-57A7-42D8-9DC4-E1391D914114" bpmnElement="_829C3D23-57A7-42D8-9DC4-E1391D914114">
-        <dc:Bounds height="102" width="154" x="760" y="484"/>
-      </bpmndi:BPMNShape>
       <bpmndi:BPMNShape id="shape__DD717018-F583-44E8-BF38-B559587BC522" bpmnElement="_DD717018-F583-44E8-BF38-B559587BC522">
         <dc:Bounds height="102" width="154" x="760" y="262"/>
       </bpmndi:BPMNShape>
-      <bpmndi:BPMNShape id="shape__D4687A94-5CBD-4777-90F1-AF47851C1DC8" bpmnElement="_D4687A94-5CBD-4777-90F1-AF47851C1DC8">
-        <dc:Bounds height="102" width="154" x="994" y="484"/>
+      <bpmndi:BPMNShape id="shape__829C3D23-57A7-42D8-9DC4-E1391D914114" bpmnElement="_829C3D23-57A7-42D8-9DC4-E1391D914114">
+        <dc:Bounds height="102" width="154" x="760" y="484"/>
       </bpmndi:BPMNShape>
       <bpmndi:BPMNShape id="shape__00EC1A34-3615-4EDA-9B48-5628F3775D36" bpmnElement="_00EC1A34-3615-4EDA-9B48-5628F3775D36">
         <dc:Bounds height="56" width="56" x="1228" y="507"/>
       </bpmndi:BPMNShape>
-      <bpmndi:BPMNShape id="shape__7878E5FF-E3D8-4C32-B400-00693C8D29C3" bpmnElement="_7878E5FF-E3D8-4C32-B400-00693C8D29C3">
-        <dc:Bounds height="218" width="1254" x="101" y="426"/>
+      <bpmndi:BPMNShape id="shape__D4687A94-5CBD-4777-90F1-AF47851C1DC8" bpmnElement="_D4687A94-5CBD-4777-90F1-AF47851C1DC8">
+        <dc:Bounds height="102" width="154" x="994" y="484"/>
       </bpmndi:BPMNShape>
       <bpmndi:BPMNShape id="shape__57BE3489-ADAE-4832-9DF4-CC009D133E70" bpmnElement="_57BE3489-ADAE-4832-9DF4-CC009D133E70">
         <dc:Bounds height="329" width="1254" x="101" y="97"/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="shape__7878E5FF-E3D8-4C32-B400-00693C8D29C3" bpmnElement="_7878E5FF-E3D8-4C32-B400-00693C8D29C3">
+        <dc:Bounds height="218" width="1254" x="101" y="426"/>
       </bpmndi:BPMNShape>
       <bpmndi:BPMNEdge id="edge_shape__935D8D76-C96C-44BC-9CCC-0F7A47BB1190_to_shape__986FE0D0-8658-4A47-827A-EB9A7C9A74D1" bpmnElement="_9AD44830-1E75-4741-9A2D-92F26AE9E89D">
         <di:waypoint x="184" y="313"/>
@@ -198,7 +198,7 @@
               </bpsim:UnitCost>
             </bpsim:CostParameters>
           </bpsim:ElementParameters>
-          <bpsim:ElementParameters elementRef="_829C3D23-57A7-42D8-9DC4-E1391D914114">
+          <bpsim:ElementParameters elementRef="_DD717018-F583-44E8-BF38-B559587BC522">
             <bpsim:TimeParameters>
               <bpsim:ProcessingTime>
                 <bpsim:NormalDistribution mean="0" standardDeviation="0"/>
@@ -218,7 +218,7 @@
               </bpsim:UnitCost>
             </bpsim:CostParameters>
           </bpsim:ElementParameters>
-          <bpsim:ElementParameters elementRef="_DD717018-F583-44E8-BF38-B559587BC522">
+          <bpsim:ElementParameters elementRef="_829C3D23-57A7-42D8-9DC4-E1391D914114">
             <bpsim:TimeParameters>
               <bpsim:ProcessingTime>
                 <bpsim:NormalDistribution mean="0" standardDeviation="0"/>
@@ -261,7 +261,7 @@
         </bpsim:Scenario>
       </bpsim:BPSimData>
     </bpmn2:extensionElements>
-    <bpmn2:source>_6fcVsP8yEDqaseXVExBWFQ</bpmn2:source>
-    <bpmn2:target>_6fcVsP8yEDqaseXVExBWFQ</bpmn2:target>
+    <bpmn2:source>_9SrqUACbEDukdYnRtxu5Fw</bpmn2:source>
+    <bpmn2:target>_9SrqUACbEDukdYnRtxu5Fw</bpmn2:target>
   </bpmn2:relationship>
 </bpmn2:definitions>

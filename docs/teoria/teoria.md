@@ -1,4 +1,4 @@
-# Teoria
+# Teoría
 
 ## Unidad 1
 

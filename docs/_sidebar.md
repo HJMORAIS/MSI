@@ -1,3 +1,3 @@
 * [Home](/)
-* [Teoria](./teoria/teoria.md)
-* [Practica](./practica/practica.md)
+* [Teoría](./teoria/teoria.md)
+* [Práctica](./practica/practica.md)
