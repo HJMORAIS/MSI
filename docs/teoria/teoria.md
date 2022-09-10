@@ -1,8 +1,8 @@
 # Teoría
 
-## Unidad 1
+# Unidad 1
 
-### Información
+## Información
 
 La información no es un dato aislado, esta tiende a ser muy extensa.
 
@@ -25,7 +25,9 @@ La información es un conjunto de datos de diferentes tipos, adecuadamente proce
 - **Táctica**: Información que es utilizada para la toma de decisiones relacionadas con la coordinación y comunicación entre distintas area de la organización. Se asocia a la toma de decisiones para el corto y mediano plazo.
 - **Estratégica**: Esta información es vital para tomar decisiones que garanticen la supervivencia de la organización y tienen un impacto al corto, mediano y largo plazo.
 
-### Gestión de Procesos
+!> **Pregunta de parcial**: ¿Cuales son los niveles de la información para la organización? :point_up:
+
+## Gestión de Procesos
 
 En todas las organizaciones existen procesos que funcionan de acuerdo a las políticas de la organización y el objetivo de negocio. Gestionar cada uno de estos procesos es lo que se conoce como "Gestión de Procesos"
 
@@ -44,7 +46,7 @@ Para lograr una eficiente gestión de procesos es fundamental que sean identific
 - **Procesos Estratégicos**: Dedicados al diseño y la planificación de las estrategias y objetivos de la organización (_Ej.: Proceso de planificación de presupuesto, Proceso de diseño de producto, etc._)
 - **Procesos de Apoyo**: Son los que entregan apoyo a los procesos clave de la organización, tiene como objetivo proporcionar los recursos que necesita la organización (_Ej.:Proceso de Formación, Proceso de Logística, etc._)
 
-### Sistema de Información
+## Sistema de Información
 
 Un sistema de información es un conjunto de elementos orientados al tratamiento y administración de datos e información, generados y organizados para cubrir una necesidad u objetivo.
 
@@ -69,7 +71,7 @@ Las actividades básicas de un sistema de información son:
 - **SE** _<small>'90</small>_ : Los "**Sistemas Expertos**" están diseñados para resolver problemas complejos usando el razonamiento. Estos fueron las primeras formas de **Inteligencia Artificial**.
 - **ERP** _<small>'90</small>_ : Los "**Sistemas de Planificación de Recursos**" integran la información de los procesos de la organización en un solo sistema.
 
-### Toma de Decisión
+## Toma de Decisión
 
 Desde hace mucho tiempo las organizaciones han reconocido que la información es uno de los recursos mas importante con los que cuenta una organización ya que es un apoyo fundamental para la toma de decisiones y la reducción de la incertidumbre.
 
@@ -88,7 +90,7 @@ Tomar una decisión supone escoger una alternativa, para lo cual necesitamos inf
 2. **Decisiones Tácticas**: Estas son tomadas por directivos intermedios y buscar gestionar los recursos de la mejor manera para alcanzar los objetivos estratégicos.
 3. **Decisiones Operativas**: Son decididas por los mandos mas bajos de la organización y están referidas a las actividades rutinarias de la empresa.
 
-### Análisis y Metodología de Sistemas
+## Análisis y Metodología de Sistemas
 
 Se trata de estudiar un sistema mediante el enfoque sistémico, atendiendo al planteo del problema a resolver, en donde intervienen personas, recursos físicos, materiales y tiempo.
 
@@ -99,6 +101,8 @@ La metodología de sistemas es un método que provee herramientas y procedimient
 - **Métodos**: Indican como construir técnicamente el sistema, desde la planificación, estimación, análisis de requerimientos, diseño, arquitectura, codificación, pruebas, puesta en producción y mantenimiento.
 - **Herramientas**: Suministran un soporte automático o semiautomático para los métodos. Un ejemplo son las herramientas de gestión como Jira, Trello; o las herramientas de modelado como StartUML, PlantUML.
 - **Procedimientos**: Relaciona métodos y herramientas para definir la secuencia en la que se aplican los métodos, las entregas que se requieren, los controles que deben hacerse para el aseguramiento de la calidad y la coordinación en los cambios y las directrices que deben seguir los gestores del proyecto para evaluar el progreso.
+
+!> **Pregunta de parcial**: Definición de Metodología de Sistemas :point_up:
 
 Existen dos grandes grupos donde encuadrar a las metodologías, el entorno **tradicional** y el entorno **ágil**, sin embargo comparten un conjunto de características comunes que definen el ciclo de vida típico de un sistema.
 
@@ -111,7 +115,9 @@ Existen dos grandes grupos donde encuadrar a las metodologías, el entorno **tra
 - **Construcción**: Es la fabricación del sistema de información con todos sus productos de apoyo (documentación, casos de prueba, etc.). En esta etapa se revisan las definiciones de las fases anteriores. 
 - **Transición**: El sistema se entrega a los usuarios; esta fase incluye la instalación, configuración, soporte a usuarios y correcciones si fuera necesario. Finaliza cuando los usuarios están satisfechos con el sistema.
 
-### Metodología Tradicional
+!> **Pregunta de parcial**: Ciclo de vida de un sistema de información :point_up:
+
+## Metodología Tradicional
 
 Estas metodologías buscan una fuerte planificación y documentación durante todo el desarrollo del proyecto, es decir, se sustentan en llevar una documentación exhaustiva y cumplir con un plan de proyecto estricto y cerrado, centrando su atención en la planificación por adelantado y la gestión de procesos.
 
@@ -124,5 +130,130 @@ Existen 4 actividades fundamentales para la ingeniería de software:
 3. **Validación del software**: En esta actividad se valida que el software está de acuerdo con la especificación definida y cumpla con lo que usuario quiere.
 4. **Evolución del software**: Es la evolución del software ara cubrir nuevas necesidades o cambios que el usuario quiere.
 
-#### Modelo clásico en Cascada
+### Modelo clásico en Cascada
+
+Este modelo plantea un enfoque sistémico y secuencial del desarrollo de software que sigue los pasos de análisis, diseño, codificación, prueba y mantenimiento; estas actividades (fases) se ejecutan en este orden especifico y nunca comienza una fase si no ha concluido la anterior. En las actividades siguientes se pueden detectar problemas o errores de las actividades previas, estas pueden generar retroalimentación que actualice la documentación de la fase previa, aunque volver atrás puede ser muy difícil y costoso. 
+La desventaja de este modelo es la dificultad para especificar los requerimientos al comienzo del proyecto ya que olvidar algo puede resultar muy costoso, es por eso que el modelo apunta a no permitir cambios, lo que **NO RESULTA** acorde a las necesidades actuales.
+
+!> **Pregunta de parcial**: ¿Cuales son los PRO/CONTRA de las Metodologías Tradicionales? :point_up:
+
+![](./_media/cascada.png)
+
+> _Imagen tomada de la Figura 9 del apunte provisto por la materia_
+
+1. **Análisis y definición de requerimientos**: Se establecen los requerimientos, servicios y las restricciones para cubrir el propósito del sistema.
+2. **Diseño del sistema y del software**: Se establece la arquitectura de sistema y se identifican y describen las abstracciones fundamentales del sistema de software.
+3. **Implementación y prueba de unidad**: Se verifica que cada unidad cumpla con su especificación.
+4. **Integración y prueba de sistema**: Las unidades se integran y prueban como un sistema completo para asegurarse de que se cumpla con la especificación. Después de probarlo, se libera el sistema de software al cliente.
+5. **Operación y mantenimiento**: El sistema se instala y se pone en práctica. El mantenimiento incluye corregir los errores que no se detectaron en etapas anteriores, mejorar la implementación e incrementar los servicios conforme se descubren nuevos requerimientos.
+
+### Modelo de Prototipos
+
+El modelo de prototipos facilita al programador la tarea de crear un modelo de software aunque no sea tan funcional como el producto final. Se genera a partir de un conjunto de objetivos generales sin identificar la información detallada de estos. Como ventaja, permite recibir retroalimentación de manera temprana y asi detectar modificaciones a implementar. Como desventaja, presenta una funcionalidad limitada y con características pobres.
+
+En este modelo es clave dejar claro que el prototipo no es la version final del software y que no reunirá todas las funcionalidades finales, solo se construye a los fines prácticos de servir como mecanismos para la definición de los requisitos; posteriormente se construirá el sistema real final.
+
+![](./_media/prototipo.png)
+
+> _Imagen tomada de la Figura 10 del apunte provisto por la materia_
+
+### Modelo en espiral
+
+Cubre las mejores características del modelo clásico, como las del modelo de prototipos. Se trata de un modelo iterativo donde por cada vuelta al ciclo, se construye una nueva version del software que amplia su funcionalidad. La idea de esta metodología es dividir el proyecto se software en proyectos mas pequeños, por eso es uno de los modelos mas realistas para el desarrollo de sistemas a gran escala.
+
+![](./_media/espiral.png)
+
+> _Imagen tomada de la Figura 11 del apunte provisto por la materia_ 
+
+- **Planificación**: Se determinan los objetivos, alternativas y restricciones.
+- **Análisis de Riesgo**: Se identifican y/o resuelven los riesgos.
+- **Implementación**: Se desarrolla el producto de siguiente nivel.
+- **Evaluación del cliente**: Se valoran los resultados.
+
+Se comienza por en una escala pequeña del producto en el centro del espiral, se hace un análisis de los riesgos y un plan para manejarlos, se establece una aproximación a la siguiente iteración y se avanza en consecuencia con el desarrollo para finalizar con la evaluación por parte del usuario. Si bien aca se describen lo 4 pasos básicos, el espiral puede adaptarse a las necesidades del proyecto y tener mas pasos. Adicionalmente, este modelo puede combinarse con otros modelos (empezar en espiral y terminar en cascada).
+
+Como el modelo hace una gestión de riesgos en cada iteración, a medida que los costos suben, los riesgos disminuyen. Ademas permite ir eliminando errores en cada iteración lo que ayuda a evitar retrasos en el proyecto.
+
+## Metodología Ágil
+
+Las **metodologías ágiles** o **Agile** están basadas en el trabajo en equipo, la colaboración, las tareas y en adaptarse a los cambios lo mas rápido posible (Un cambio representa una oportunidad). Estas nacieron en respuesta a las problemáticas que tenían las metodologías tradicionales promoviendo por sobre tdo lo demás la capacidad de adaptarse.
+
+#### Beneficios de la gestión agile
+
+- Prioridades flexibles
+- Entregas tempranas
+- Costos y plazos conocidos
+- Mejor calidad final
+- Mayor transparencia
+
+!> **Pregunta de parcial**: ¿Cuales son las ventajas de las Metodologías Ágiles? :point_up:
+
+#### Manifiesto Agile
+
+**Individuos e interacciones** sobre procesos y herramientas
+**Software funcionando** sobre documentación extensiva
+**Colaboración con el cliente** sobre negociación contractual
+**Respuesta ante el cambio** sobre seguir un plan
+
+> _Fuente https://agilemanifesto.org/iso/es/manifesto.html_ 
+
+### XP
+
+"**_El software como solución ágil y no como proyectos arquitectónicos_**". Algunos la definen mas como un movimiento "social" de los desarrolladores hacia las personas de negocio, de lo que debería ser el desarrollo de software en contraposición a los legalismos de los contratos de software.
+
+?> **Tip**: 
+
+### Scrum
+
+Scrum es un marco de trabajo iterativo (**Sprints**) en ciclos de entre 1 a 4 semanas, para el desarrollo de proyectos, aplicaciones y productos. Cada Sprint comienza con la ceremonia de "**Spring Planning**" donde se seleccionan los requisitos a trabajar en el Sprint (**Sprint Backlog**) de una la lista priorizada (**Product Backlog**). Durante el Sprint, cada día el equipo se reúne para  informar del progreso del trabajo comprometido (**Daily**). Al final del Sprint el equipo expone el producto obtenido del esfuerzo de la iteración en una ceremonia llamada "**Review**" y recoge los comentarios y observaciones para incorporarlos en la siguiente iteración. Como cierre, el equipo se reúne para analizar como se ejecuto este Sprint y revisar las oportunidades de mejora para las siguientes iteraciones (**Retrospective**).
+
+![](./_media/scrum.png)
+
+> _Imagen tomada de la Figura 13 del apunte provisto por la materia_ 
+
+### Lean
+
+Esta metodología describe un producto mínimo viable (**MVP**) como la versión minima de un producto que permite al equipo recolectar la cantidad máxima de aprendizaje validado sobre clientes con el menor esfuerzo.
+
+Este metodología se basa en un enfoque centrado en el cliente en vez de en el producto, buscando aprender de cada iteración del producto para poner a prueba hipótesis y poder saber hacia donde avanzar. por eso es importante avanzar con rapidez y no esperar a tener un producto perfectamente acabado (mientras antes podamos probar el producto con clientes reales mejor). Se trata de una filosofía basada en la experimentación con ciclo de desarrollo muy cortos. Otra clave es saber cuando seguir y cuando no sobre una linea de trabajo. 
+
+![](./_media/lean.png)
+
+> _Imagen tomada de la Figura 14 del apunte provisto por la materia_
+
+Lean cambia el clásico ciclo de vida de desarrollo por el ciclo de vida de aprendizaje.
+- **Construir**: Se desarrolla un MVP centrado en la hipótesis que se quiere validar.
+- **Medir**: Se establecen métricas con las cuales valorar el experimento.
+- **Aprender**: De las métricas sacamos información con la cual aprendemos del negocio para seguir mejorando el producto.
+
+### Kanban
+
+La palabra "Kanban viene de **Kan** (visible/visual) y **Ban** (tarjeta/tablón). El objetivo de la metodología es organizar las tareas escritas en tarjetas y organizadas en un tablero dividido en columnas que indican en que estado está la tarjeta o tarea; las tareas dentro de cada columna se organizan de mayor a menor prioridad, estando en lo mas alto la de mayor prioridad. Opcionalmente el sistema permite establecer filas o carriles especiales por encima de las columnas para establecer ciertos criterios (_Por ejemplo, un carril para las tareas urgentes_). Las principales columnas utilizadas en Kanban son:
+
+- **Objetivos** (_Opcional_): Se marcan a largo plazo con el objetivo de que todos los tengan presentes.
+- **Pendientes**: Engloba las tareas pendientes que se pueden ejecutar de manera inmediata.
+- **Preparación** (_Opcional_): Tareas que necesitan cierta discusión antes de ser afrontadas.
+- **Desarrollo**: Aquí ponemos las tareas mientras se están ejecutando y hasta que terminamos.
+- **Prueba**: Probamos que todo funciona bien, si es asi, la tarjeta avanza, sino retrocede.
+- **Aplicación** (_Opcional_): Aquí van tareas como instalar una versión en un servidor.
+- **Hecho**: Cuando la tarea es terminada se pone en esta columna.
+
+
+## Diferencias entre metodologías tradicionales y ágiles
+
+Las **metodologías tradicionales** imponen una disciplina fundamentada en la documentación por sobre el desarrollo de software, hacen hincapié en la planificación global; mientras que las **metodologías ágiles** pone delante el desarrollo de software primero y muchas veces obvia la documentación tratando de buscar un equilibrio entre el proceso y el esfuerzo.
+
+| Metodologías ágiles                            | Metodologías Tradicionales                             |
+|:----------------------------------------------:|:------------------------------------------------------:|
+| Flexibles a cambios                            | Poco flexibles a cambios                               |
+| Proceso poco controlado, pocas normas          | Proceso muy controlado, con muchas normas              |
+| El cliente es parte activa del proceso         | El cliente interactúa con el equipo en las entregas    |
+| Grupos pequeños con vision de todo el proceso  | Grandes grupos con vision solo de la tarea asignada    |
+| Menos énfasis en la arquitectura               | La arquitectura es esencial y se modela                |
+
+!> **Pregunta de parcial**: Diferencias entre Metodología Tradicional y Agile :point_up:
+
+## Requerimientos
+
+
 
