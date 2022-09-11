@@ -255,5 +255,65 @@ Las **metodologías tradicionales** imponen una disciplina fundamentada en la do
 
 ## Requerimientos
 
+Las mayores causas de fracaso de los proyectos de desarrollo se debían a fallas en la definición de los requerimientos, este es un problema vinculado con la comunicación y los vínculos sociales que se establecen entre todos los involucrados en el proyecto de desarrollo.
 
+![](./_media/entendimiento.png)
 
+> _Imagen tomada de la Figura 16 del apunte provisto por la materia_
+
+Los problemas mas comunes son:
+- Los requerimientos no son siempre fáciles de expresar de manera clara mediante palabras.
+- El número de requerimientos puede volverse inmanejable si no se controla.
+- Los requerimientos cambian.
+
+### ¿Que es un requerimiento?
+
+Un requerimiento es una capacidad que el software debe poseer para cubrir una necesidad del usuario para resolver un problema o alcanzar un objetivo. En otras palabras, es una característica que debe incluirse en el software.
+
+Para poder identificar un requerimiento debemos adquirir conocimientos de las organización, encontrar aquellos problemas que necesitan resolverse o falta de información que entorpecen la toma de decisiones y generan incertidumbre.
+
+### Diagnostico del problema
+
+Los problemas o inconvenientes son aquellas situaciones que ocasionan ciertos obstáculos que nos alejan del objetivo, y que requieren de una solución; estos son los casos que debemos detectar. Mal podremos comprender los requerimientos si no formulamos adecuadamente el problema.
+Para comprender si se trata de un problema o un requerimiento, debemos comprender que los requerimientos están orientados a lo que el cliente necesita, aquello que desea.
+
+### Objetivo del SI
+
+El objetivo del SI es el foco de la propuesta del que se desprenden los objetivos específicos que resumen la solución hallada en el diagnostico del problema. El objetivo general del SI es en correspondencia con los requerimientos del cliente y el análisis de requerimientos globales. Siempre se plantea un solo objetivo general.
+
+La forma de redactar un objetivo es:
+
+```
+Brindar información para la gestión de XXX, gestión de XXX de la empresa XXXX para facilitar la toma de decisiones sobre XXX
+```
+
+### Limite del SI
+
+El limite del sistema se redacta usando las palabras desde/hasta.
+```
+Desde la registración de XXX, hasta que se emiten los informes de XXX
+```
+
+### Alcance del SI
+
+El alcance del SI son todas aquellas tareas de captación, procesamiento y emisión de información, para brindar apoyo a las actividades de la organización asociadas a los requerimientos. Debemos usar solo los verbos **Registrar, Actualizar, Consultar, Emitir, Generar**
+
+### Salidas del SI
+
+Son todas aquellas salidas que genera el SI, debemos tener en cuenta que por cada salida generada, debemos haber incluido en los alcances la captación de datos para generar dichas salidas.
+
+### Ingeniería de Requerimientos
+
+El nivel de importancia de los requerimientos ha dado lugar a un tipo de especialización de la ingeniería. El proceso de  ingeniería de requerimientos se enfoca en evitar el fracaso de los proyectos y producir un documento que describa las necesidades del cliente y usuarios del sistema. Existen 3 pasos dentro de este proceso:
+
+- **Obtener**: Proceso para obtener los requerimientos del sistema mediante un estudio inicial o relevamiento.
+- **Especificar**: Trascribir la información recopilada durante la actividad de obtención en un documento que defina los requerimientos. Para esto se acuerda un lenguaje común que permita a todos los participantes llegar a un mismo entendimiento. también se usan normas y estándares para la redacción de modo tal que se pueda cumplir con esta característica. Esta especificación debe abordar lo **que** hay que hacer y no el **como**.
+- **Validar**: Verifica que los requerimientos sean **Verificable** (un requerimientos debe poder comprobarse para saber si se cumplió), **Conciso** (fácil de leer y entender), **Completo** (tiene la información suficiente para su comprensión), **Consistente** (no debe ser contradictorio con otro requerimiento), **No ambiguo** (tiene una sola interpretación, no debe causar confusión).
+
+### Requerimientos Funcionales (RF)
+
+Describe la funcionalidad o los servicios que se espera que el sistema provea o cubra, son las funciones que el sistema será capaz de llevar a cabo sin tener en cuenta restricciones físicas.
+
+### Requerimientos No Funcionales (RNF)
+
+Son aquellos que no se refieren a las funcionalidades especificas del sistema, sino a las propiedades que aseguran la calidad del software, por ejemplo, fiabilidad, tiempos de respuestas, capacidad de almacenamiento, etc.
