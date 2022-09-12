@@ -19,7 +19,7 @@ La información es un conjunto de datos de diferentes tipos, adecuadamente proce
 
 ![](./_media/niveles_informacion.png)
 
-> Imagen tomada de la Figura 1 del apunte provisto por la materia_
+> Imagen tomada de la Figura 1 del apunte (Unidad 1) provisto por la materia_
 
 - **Técnica**: Información que es relevante para la toma de decisiones operativas del díd a día de una organización. El resultado es evidente en el corto plazo.
 - **Táctica**: Información que es utilizada para la toma de decisiones relacionadas con la coordinación y comunicación entre distintas area de la organización. Se asocia a la toma de decisiones para el corto y mediano plazo.
@@ -59,7 +59,7 @@ Las actividades básicas de un sistema de información son:
 
 ![](./_media/si.png)
 
-> Imagen tomada de la Figura 2 del apunte provisto por la materia
+> Imagen tomada de la Figura 2 del apunte (Unidad 1) provisto por la materia
 
 #### Clasificación de los sistemas según su función
 
@@ -79,7 +79,7 @@ La información es muy importante en el proceso de toma de decisiones ya que pue
 
 ![](./_media/toma_decision.png)
 
-> _Imagen tomada de la Figura 5 del apunte provisto por la materia_
+> _Imagen tomada de la Figura 5 del apunte (Unidad 1) provisto por la materia_
 
 El proceso de toma de decisión comienza con detectar una situación que rodea a un problema, analizar esta situación y definir el problema.
 Tomar una decisión supone escoger una alternativa, para lo cual necesitamos información sobre estas y las consecuencias ya que selección que hagamos supondrá que se genere nueva información que podrá servir de base para una nueva decisión a tomar y asi sucesivamente.
@@ -108,7 +108,7 @@ Existen dos grandes grupos donde encuadrar a las metodologías, el entorno **tra
 
 ![](./_media/caract_comunes.png)
 
-> _Imagen tomada de la Figura 8 del apunte provisto por la materia_
+> _Imagen tomada de la Figura 8 del apunte (Unidad 1) provisto por la materia_
 
 - **Inicio**: Es la _"visión del sistema"_, donde se establece el alcance del proyecto y se toma la decisión de comenzar con el mismo (se decide realizar la inversión de dinero y esfuerzo).
 - **Elaboración**: Se hace el análisis del sistema de negocio para el cual se busca solución, se define la estructura general del sistema de información, se identifican los factores de riesgo del proyecto y se elabora el plan detallado.
@@ -139,7 +139,7 @@ La desventaja de este modelo es la dificultad para especificar los requerimiento
 
 ![](./_media/cascada.png)
 
-> _Imagen tomada de la Figura 9 del apunte provisto por la materia_
+> _Imagen tomada de la Figura 9 del apunte (Unidad 1) provisto por la materia_
 
 1. **Análisis y definición de requerimientos**: Se establecen los requerimientos, servicios y las restricciones para cubrir el propósito del sistema.
 2. **Diseño del sistema y del software**: Se establece la arquitectura de sistema y se identifican y describen las abstracciones fundamentales del sistema de software.
@@ -155,7 +155,7 @@ En este modelo es clave dejar claro que el prototipo no es la version final del 
 
 ![](./_media/prototipo.png)
 
-> _Imagen tomada de la Figura 10 del apunte provisto por la materia_
+> _Imagen tomada de la Figura 10 del apunte (Unidad 1) provisto por la materia_
 
 ### Modelo en espiral
 
@@ -163,7 +163,7 @@ Cubre las mejores características del modelo clásico, como las del modelo de p
 
 ![](./_media/espiral.png)
 
-> _Imagen tomada de la Figura 11 del apunte provisto por la materia_ 
+> _Imagen tomada de la Figura 11 del apunte (Unidad 1) provisto por la materia_ 
 
 - **Planificación**: Se determinan los objetivos, alternativas y restricciones.
 - **Análisis de Riesgo**: Se identifican y/o resuelven los riesgos.
@@ -190,10 +190,10 @@ Las **metodologías ágiles** o **Agile** están basadas en el trabajo en equipo
 
 #### Manifiesto Agile
 
-**Individuos e interacciones** sobre procesos y herramientas
-**Software funcionando** sobre documentación extensiva
-**Colaboración con el cliente** sobre negociación contractual
-**Respuesta ante el cambio** sobre seguir un plan
+- **Individuos e interacciones** sobre procesos y herramientas
+- **Software funcionando** sobre documentación extensiva
+- **Colaboración con el cliente** sobre negociación contractual
+- **Respuesta ante el cambio** sobre seguir un plan
 
 > _Fuente https://agilemanifesto.org/iso/es/manifesto.html_ 
 
@@ -209,7 +209,7 @@ Scrum es un marco de trabajo iterativo (**Sprints**) en ciclos de entre 1 a 4 se
 
 ![](./_media/scrum.png)
 
-> _Imagen tomada de la Figura 13 del apunte provisto por la materia_ 
+> _Imagen tomada de la Figura 13 del apunte (Unidad 1) provisto por la materia_ 
 
 ### Lean
 
@@ -219,7 +219,7 @@ Este metodología se basa en un enfoque centrado en el cliente en vez de en el p
 
 ![](./_media/lean.png)
 
-> _Imagen tomada de la Figura 14 del apunte provisto por la materia_
+> _Imagen tomada de la Figura 14 del apunte (Unidad 1) provisto por la materia_
 
 Lean cambia el clásico ciclo de vida de desarrollo por el ciclo de vida de aprendizaje.
 - **Construir**: Se desarrolla un MVP centrado en la hipótesis que se quiere validar.
@@ -259,7 +259,7 @@ Las mayores causas de fracaso de los proyectos de desarrollo se debían a fallas
 
 ![](./_media/entendimiento.png)
 
-> _Imagen tomada de la Figura 16 del apunte provisto por la materia_
+> _Imagen tomada de la Figura 16 del apunte (Unidad 1) provisto por la materia_
 
 Los problemas mas comunes son:
 - Los requerimientos no son siempre fáciles de expresar de manera clara mediante palabras.
@@ -317,3 +317,68 @@ Describe la funcionalidad o los servicios que se espera que el sistema provea o 
 ### Requerimientos No Funcionales (RNF)
 
 Son aquellos que no se refieren a las funcionalidades especificas del sistema, sino a las propiedades que aseguran la calidad del software, por ejemplo, fiabilidad, tiempos de respuestas, capacidad de almacenamiento, etc.
+
+# Unidad 2
+
+## Modelos UML
+
+El objetivo de UML es adaptar, expandir y simplificar los tipos de diagramas existentes y aceptados de varios métodos orientados a objetos. El modelado del software es una técnica de ingeniería probada y bien aceptada para construir modelos arquitectónicos de un producto de SW. UML es un lenguaje estándar para escribir “planos” de software que permiten visualizar, especificar, construir y documentar bloques de información, llamados artefactos, de un sistema que involucra software.
+
+### ¿Qué es un modelo?
+
+- Un modelo proporciona los planos de cómo es el sistema, tendremos modelos con mayor o menor grado de detalle que van a describir las diferentes perspectivas en cada etapa del ciclo de desarrollo.
+- Un modelo es una abstracción de la estructura y comportamiento del sistema.
+- Un modelo proporciona plantillas que sirven de guía en la construcción de un programa.
+- Un modelo representa y permite visualizar relaciones de trazabilidad entre los diferentes modelos.
+- Un modelo documenta las decisiones que se han adoptado.
+
+!> **Pregunta de parcial**: Multiple choose de practica para el parcial :point_up:
+
+### Propósito de UML
+
+- Visualizar: Un modelo explícito facilita la comunicación. UML es un lenguaje gráfico, detrás de cada símbolo en la notación UML hay una semántica bien definida. Así, un desarrollador puede interpretar ese modelo sin ambigüedad.
+- Especificar: UML cubre la especificación de todas las decisiones de análisis, diseño e implementación que deben realizarse al desarrollar y desplegar un sistema de software.
+- Construir: UML no es un lenguaje de programación visual, pero sus modelos pueden conectarse de forma directa a una gran variedad de lenguajes de programación. Esta correspondencia permite ingeniería directa: "_la generación de código a partir de un modelo UML_"
+- Documentar: Una organización de software que trabaje bien produce toda clase de artefactos además de código ejecutable. Estos artefactos incluyen, entre otros: requisitos, arquitectura, diseño, código fuente, planificación de proyectos, pruebas, prototipos, versiones.
+
+## Bloques de construcción de UML
+
+Para utilizar UML necesitamos definir tres clases de bloques de construcción: **elementos**, **diagramas** y **relaciones**.
+
+### Elementos
+
+Existen 4 tipos de elementos en UML.
+
+- **Elementos estructurales**: Son los elementos estructurales básicos que se pueden incluir en el modelo UML.
+- **Elementos de comportamiento**: Son las partes dinámicas de los modelos UML. Estos son los verbos de un modelo y representan comportamiento en el tiempo y en el espacio.
+  - **_Interacción_**: Comprende un conjunto de mensajes intercambiados entre un conjunto de objetos, dentro de un contexto particular para alcanzar un propósito específico.
+  - **_Máquina de Estados_**: Especifica las secuencias de estados por las que pasa un objeto durante su vida en respuesta a eventos.
+- **Elementos de agrupación**: Son las partes organizativas de los modelos UML. Estos son las cajas en las que pueden descomponerse un modelo.
+- **Elementos de anotación**: Son las partes explicativas de los modelos UML.
+
+### Diagramas
+
+Los diagramas de UML sirven para visualizar un sistema desde diferentes perspectivas o vistas.
+
+![](./_media/diagramas_uml.png)
+
+> _Imagen tomada de la Figura 7 del apunte (Unidad 2) provisto por la materia_
+
+#### El modelo de vistas 4+1
+
+El modelo “4+1” de **Kruchten**, es un modelo de vistas que se utiliza para describir la arquitectura de un sistema software intensivo basado en el uso de múltiples puntos de vista. Se ha de documentar y mostrar con 4 vistas bien diferenciadas y se han de relacionar entre sí con una vista más, que es la denominada vista “+1”. Las denominó: **Vista lógica**, **Vista de procesos**, **Vista de despliegue**, **Vista física** y **Vista de Escenario** (+1).
+
+Las vistas de UML son 5, tal que la vista principal es la** vista de casos de uso** que permite mostrar los requisitos del sistema, luego la **vista de diseño** y **vista de procesos** que permiten mostrar lo que ocurre dentro del sistema, la **vista de implementación** permite mostrar el cambio de estados de los objetos y modelar aspectos relacionados con requisitos no funcionales y cercano al desarrollo y finalmente, la **vista de despliegue** permite mostrar aspectos físicos del sistema como por ejemplo la arquitectura en donde se van a instalar y distribuir los componentes.
+
+![](./_media/vistas_uml.png)
+
+> _Imagen tomada de la Figura 9 del apunte (Unidad 2) provisto por la materia_
+
+### Relaciones
+
+Una relación define la conexión entre elementos de UML. Para diferenciar las distintas relaciones se utilizan varios tipos de líneas.
+
+![](./_media/relaciones.png)
+
+> _Imagen tomada de la Figura 11 del apunte (Unidad 2) provisto por la materia_
+
